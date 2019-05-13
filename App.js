@@ -31,7 +31,9 @@ Navigation.registerComponent(
 )
 Navigation.registerComponent(
   'PlacePlus.PlaceDetail',
-  () => PlaceDetail
+  () => PlaceDetail,
+  store,
+  Provider
 )
 
 // Start App
